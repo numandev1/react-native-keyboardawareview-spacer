@@ -1,14 +1,15 @@
 {
-  "name": "react-native-keyboardawareview",
+  "name": "react-native-keyboardawareview-spacer",
   "version": "0.0.1",
-  "description": "react native KeyboardAwareView",
+  "description": "react native KeyboardAwareViewSpacer",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nomi9995/react-native-keyboardawareview.git"
+    "url": "git+https://github.com/nomi9995/react-native-keyboardawareview-spacer.git"
   },
   "keywords": [
     "react",
@@ -23,7 +24,7 @@
   "author": "\"Muhammmad Numan <muhammadnuman70@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nomi9995/react-native-keyboardawareview/issues"
+    "url": "https://github.com/nomi9995/react-native-keyboardawareview-spacer/issues"
   },
-  "homepage": "https://github.com/nomi9995/react-native-keyboardawareview#readme"
+  "homepage": "https://github.com/nomi9995/react-native-keyboardawareview-spacer#readme"
 }

@@ -1,29 +1,29 @@
-# react-native-keyboardawareview
+# react-native-keyboardawareview-spacer
 
-[![npm version](https://img.shields.io/npm/v/react-native-keyboardawareview.svg)](https://www.npmjs.com/package/react-native-keyboardawareview) [![npm total downloads](https://img.shields.io/npm/dt/react-native-keyboardawareview.svg)](https://www.npmjs.com/package/react-native-keyboardawareview.svg)
+[![npm version](https://img.shields.io/npm/v/react-native-keyboardawareview-spacer.svg)](https://www.npmjs.com/package/react-native-keyboardawareview-spacer) [![npm total downloads](https://img.shields.io/npm/dt/react-native-keyboardawareview-spacer.svg)](https://www.npmjs.com/package/react-native-keyboardawareview-spacer.svg)
 
 ## Installation
 
 ```shell
-npm install react-native-keyboardawareview --save
+npm install react-native-keyboardawareview-spacer --save
 ```
 
 ## Usage
 
 ```js
-import KeyboardAwareView from "react-native-keyboardawareview";
+import KeyboardAwareViewSpacer from "react-native-keyboardawareview-spacer";
 
-<KeyboardAwareView>
+<KeyboardAwareViewSpacer>
   <View>
     <TextInput />
     <Button title="Send" />
   </View>
-</KeyboardAwareView>;
+</KeyboardAwareViewSpacer>;
 ```
 
 **Expo Snack Example**
 
-https://snack.expo.io/@nomi9995/react-native-keyboardawareview
+https://snack.expo.io/@nomi9995/react-native-keyboardawareview-spacer
 
 ## Props
 

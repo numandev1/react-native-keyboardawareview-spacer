@@ -8,7 +8,7 @@ import {
   LayoutAnimation,
 } from "react-native";
 
-export default class KeyboardAwareView extends React.PureComponent {
+export default class KeyboardAwareViewSpacer extends React.PureComponent {
   static defaultProps = {
     backgroundColor: "#f6f6f6",
     extraSpace: 0,
@@ -67,7 +67,7 @@ export default class KeyboardAwareView extends React.PureComponent {
     const { children, backgroundColor } = this.props;
 
     if (!children) {
-      console.warn(`Missing children on KeyboardAwareView component.`);
+      console.warn(`Missing children on KeyboardAwareViewSpacer component.`);
     }
 
     return (
