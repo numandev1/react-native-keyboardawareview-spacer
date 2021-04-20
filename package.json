@@ -1,0 +1,29 @@
+{
+  "name": "react-native-keyboardawareview",
+  "version": "0.0.1",
+  "description": "react native KeyboardAwareView",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomi9995/react-native-keyboardawareview.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "keyboard",
+    "keyboardawareview",
+    "spaace",
+    "spaccer",
+    "top",
+    "view"
+  ],
+  "author": "\"Muhammmad Numan <muhammadnuman70@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomi9995/react-native-keyboardawareview/issues"
+  },
+  "homepage": "https://github.com/nomi9995/react-native-keyboardawareview#readme"
+}
