@@ -1,6 +1,6 @@
 {
   "name": "react-native-keyboardawareview-spacer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react native KeyboardAwareViewSpacer",
   "main": "index.js",
   "private": false,

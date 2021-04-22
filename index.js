@@ -18,6 +18,7 @@ export default class KeyboardAwareViewSpacer extends React.PureComponent {
     super(props);
     this.state = {
       bottom: 0,
+      isKeyboardOpened: false
     };
     // Enable `LayoutAnimation` for Android.
     if (UIManager.setLayoutAnimationEnabledExperimental) {
@@ -47,18 +48,26 @@ export default class KeyboardAwareViewSpacer extends React.PureComponent {
   }
 
   keyboardShow = (e) => {
+    if (this.state.isKeyboardOpened) {
+      return;
+    }
     if (!this.props.disabled) {
       LayoutAnimation.easeInEaseOut();
       this.setState({
         bottom: e.endCoordinates.height + this.props.extraSpace,
+        isKeyboardOpened:true
       });
     }
   };
 
   keyboardHide = (e) => {
+    if (!this.state.isKeyboardOpened) {
+      return;
+    }
     LayoutAnimation.easeInEaseOut();
     this.setState({
       bottom: 0,
+      isKeyboardOpened:false
     });
   };
 
